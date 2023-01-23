@@ -1,1 +1,148 @@
+* {box-sizing: border-box;}
 
+body { 
+  margin: 1;
+  font-family: 'Rajdhani';
+  font-weight: bold;
+  }
+
+
+.background-image {
+    background-image: url(../assets/Achtergrond.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.icon {
+    size: 32px 32px;
+}
+
+img.logo {
+    background-color: #524dd0;
+    width: 130px;
+    height: 45px;
+    object-fit: cover;
+  }
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+h2 {
+    text-shadow: 3px 3px 3px black;
+    color: #fff;
+    background-color: #524dd0;
+    border-radius: 5px;
+    width: 55%;
+
+}
+.header {
+  overflow: hidden;
+  background-color: #524dd0;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+a.Home {
+  background-color: dodgerblue;
+  color: white;
+  justify-content: right;
+}
+
+a.Contact {
+    color: #fff;
+}
+
+.card {
+    box-shadow: 3px 3px 3px 3px #666;
+    border: 2px #666;
+    transition: 0.3s;
+    width: 80%;
+    border-radius: 5px;
+    margin: 30px;
+    background: #524dd0;
+    color: #fff;
+    font-family: 'Roboto';
+  }
+  
+.card:hover {
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+img {
+   border-radius: 5px 5px 0 0;
+  }
+  
+.container {
+   padding: 2px 16px;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   line-height: 1;
+   font-family: 'Roboto light';
+  }
+
+button {
+    font-family: 'Rajdhani';
+    font-weight: bold;
+    font-size: 15px;
+    color: #fff;
+    background-color: #524dd0;
+    margin: 5px;
+    width: 250px;
+    height: 100px;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+button:hover {
+    background-color: #84389e;
+    
+}
+
+button:active {
+  background-color: #84389e;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#Utrecht {
+    display: none;
+}
+
+#Schiedam {
+    display: none;
+}
+
+#Amsterdam {
+    display: none;
+}
+
+#Rotterdam {
+    display: none;
+}
+
+
+#map {
+    height: 400px; /* The height is 400 pixels */
+    width: 100%; /* The width is the width of the web page */
+  }

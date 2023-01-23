@@ -1,1 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartzones</title>
+    <link href='https://fonts.googleapis.com/css?family=Rajdhani' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="icon" href="Assets/Logo1.png" type="image/icon type">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="Scripts/Smartzones.js"></script>
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+</script>
+</head>
+<body>
+  <div class="background-image">
+  <div class="header">
+    <img src="Assets/Logo2.jpg" class="logo"/>  
+  <div class="header-right">
+    <h1>Smartzones</h1>
+    <a class="Home" href="https://www.codingthecurbs.com/?lang=nl">Home</a>
+    <a class="Contact" href="https://www.codingthecurbs.com/contact?lang=nl">Contact</a>
+  </div>
+  </div>
 
+  
+<div id="map"></div>
+
+<h2>Klik op een van de steden om de Smartzones in dit gebied te zien</h2>
+
+<div class="btn-group">
+ <button class="flip" onclick="myFunction1()">Smartzones Utrecht</button>
+ <button class="flip" onclick="myFunction2()">Smartzones Schiedam</button>
+ <button class="flip" onclick="myFunction3()">Smartzones Amsterdam</button>
+ <button class="flip" onclick="myFunction4()">Smartzones Rotterdam</button>
+</div>
+ 
+<div class="container">
+ <div id="Utrecht">
+    <div class="card">
+     <img src="Assets/Tijnfoto.jpg" alt="Avatar" style="width:100%">
+      <h4><b>"Tijn"</b></h4> 
+      <p>Adres: Twijnstraat 26, Utrecht</p><br>
+      <p>Grootte: 1,5 plek</p><br>
+      <p>Beschikbaarheid:</p>
+    </div>
+
+    <div class="card">
+     <img src="Assets/Sarahfoto.jpg" alt="Avatar" style="width:100%">
+         <h4><b>"Sarah"</b></h4> 
+         <p>Adres: Twijnstraat 22, Utrecht</p><br>
+         <p>Grootte: 1,5 plek</p><br>
+         <p>Beschikbaarheid:</p>
+       </div>
+ </div>
+
+ <div id="Schiedam">
+    <div class="card">
+     <img src="Assets/Manonfoto.jpg" alt="Avatar" style="width:100%">
+         <h4><b>"Manon"</b></h4> 
+         <p>Adres: Lange Haven 56, Schiedam</p><br>
+         <p>Grootte: 1,5 plek</p><br>
+         <p>Beschikbaarheid:</p>
+       </div>
+
+    <div class="card">
+     <img src="Assets/Ahmedfoto.jpg" alt="Avatar" style="width:100%">
+         <h4><b>"Ahmed"</b></h4> 
+         <p>Adres: Lange Haven 72, Schiedam</p><br>
+         <p>Grootte: 1,5 plek</p><br>
+         <p>Beschikbaarheid:</p>
+       </div>
+ </div>
+
+ <div id="Amsterdam">
+    <div class="card">
+     <img src="Assets/Oliviafoto.jpg" alt="Avatar" style="width:100%">
+         <h4><b>"Olivia"</b></h4> 
+         <p>Adres: Overtoom 450, Amsterdam</p><br>
+         <p>Grootte: 1,5 plek</p><br>
+         <p>Beschikbaarheid:</p>
+       </div>
+
+    <div class="card">
+     <img src="Assets/Karelfoto.jpg" alt="Avatar" style="width:100%">
+         <h4><b>"Karel"</b></h4> 
+         <p>Adres: Kinkerstraat 272, Amsterdam</p><br>
+         <p>Grootte: 1,5 plek</p><br>
+         <p>Beschikbaarheid:</p>
+       </div>
+ </div>
+
+ <div id="Rotterdam">
+    <div class="card" id>
+      <img src="Assets/Wafafoto.jpg" alt="Avatar" style="width:100%">
+         <h4><b>"Wafa"</b></h4> 
+         <p>Adres: West-Kruiskade 93, Rotterdam</p><br>
+         <p>Grootte: 1,5 plek</p><br>
+         <p>Beschikbaarheid:</p>
+       </div>
+
+    <div class="card">
+     <img src="Assets/Wicherfoto.png" alt="Avatar" style="width:100%">
+         <h4><b>"Wicher"</b></h4> 
+         <p>Adres: Witte de Withstraat 32, Rotterdam</p><br>
+         <p>Grootte: 1,5 plek</p><br>
+         <p>Beschikbaarheid:</p>
+       </div>
+ </div>
+</div>
+</div>
+</body>
+</html>
